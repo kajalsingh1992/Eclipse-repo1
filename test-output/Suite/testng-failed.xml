@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.testcase.LoginTestCase">
+        <methods>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.testcase.LoginTestCase -->
+      <class name="com.testcase.PIM_Dashboard_TestCase">
+        <methods>
+          <include name="addEmployee"/>
+        </methods>
+      </class> <!-- com.testcase.PIM_Dashboard_TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
